@@ -7,17 +7,12 @@ public class Empregado {
 	private Departamento depto;
 	
 	public Empregado(String cpf, String nome, Departamento dpto) {
-		super();
 		this.cpf = cpf;
 		this.nome = nome;
 		this.setDepto(depto);
 	}
 	
-	public void setDepto(Departamento depto) {
-	
-	}
-
-	//Get e Set
+	// Get e Set
 	public String getCpf() {
 		return cpf;
 	}
@@ -37,6 +32,13 @@ public class Empregado {
 	public Departamento getDepto() {
 		return depto;
 	}
+
+	public void setDepto(Departamento depto) {
+		this.depto = depto;
+	}
+
+	
+	
 	
 	
 }
