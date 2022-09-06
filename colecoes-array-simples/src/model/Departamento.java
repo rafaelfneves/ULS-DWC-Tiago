@@ -31,7 +31,7 @@ public class Departamento {
 		}
 	}
 	// ==========================================================
-	// Get/Set
+	// Get Set
 
 	public String getSigla() {
 		return sigla;
